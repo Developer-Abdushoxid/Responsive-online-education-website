@@ -3,8 +3,7 @@
   let profile = document.querySelector('.header .flex .profile');
 
 document.querySelector('#user-btn').onclick = () =>{
-    profile.classList.toggle('active');
-    
+    profile.classList.toggle('active'); 
     searchForm.classList.remove('active');
 }
 
